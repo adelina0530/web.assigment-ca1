@@ -10,5 +10,7 @@ const router = express.Router();
 import start from './controllers/start.js';
 router.get('/', start.createView);
 
+import movies from "./controllers/movies.js";
+router.get("/movies", movies.createView);
 
 export default router;
