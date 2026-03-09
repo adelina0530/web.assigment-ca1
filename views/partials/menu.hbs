@@ -1,21 +1,15 @@
-<nav class="ui stackable menu">
-  
-  <header class="ui header item"> 
-    <!--     Change the link below to suit your app -->
-    <a href="/"> Home Page </a>
-    <a href="movies">Movie Collection</a>
-    <a href="details">Collection details</a>
-    <a href="about">About</a>
+<nav class="ui inverted menu">
 
-  </header>
-  
-  <div class="right menu">
-    <!--     Add links to your pages here -->
-    
-  </div>
-  
+  <a class="item" href="/">Home Page</a>
+
+  <a class="item" href="/movies">Movie Collection</a>
+
+  <a class="item" href="/details">Collection details</a>
+
+  <a class="item" href="/about">About</a>
+
 </nav>
 
 <script>
- document.querySelector("#{{id}}").classList.add("active");
+ document.querySelector("#{{id}}")?.classList.add("active");
 </script>

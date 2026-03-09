@@ -12,3 +12,7 @@ body {
   margin: 2em;
   background-color: lightgrey;
 }
+.ui.menu .item {
+  flex: 1;
+  text-align: center;
+}
