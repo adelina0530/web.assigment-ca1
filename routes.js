@@ -8,9 +8,11 @@ const router = express.Router();
 import start from "./controllers/start.js";
 import movies from "./controllers/movies.js";
 import details from "./controllers/details.js";
+import about from "./controllers/about.js";   // ← ADAUGĂ LINIA ASTA
 
 router.get("/", start.createView);
 router.get("/movies", movies.createView);
 router.get("/details/:id", details.createView);
+router.get("/about", about.createView);
 
 export default router;

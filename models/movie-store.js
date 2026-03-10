@@ -13,7 +13,7 @@ const movieStore = {
 
   getAllCategories() {
     return movieCollection.categoryCollection;
-  }
+  },
 
 };
 

@@ -1,9 +1,15 @@
 {
   "info": {
-    "message": 
-      "The app-store.json and app-store.js files can be expanded to store some facts about the app e.g. the app's creators. You should also add your own store (equivalent to our playlist-store.json). See the assignment spec for more details.",
+    "appTitle": "Adeline's Movie Collection",
+    "version": "1.0",
+    "location": "Waterford, Ireland",
     "creators": [
-      
+      {
+        "name": "Adelina Cusnir"
+      },
+      {
+        "name": "SETU Lecturer"
+      }
     ]
   }
 }
