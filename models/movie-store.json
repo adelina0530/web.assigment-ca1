@@ -1,0 +1,138 @@
+{
+  "categoryCollection": [
+
+    {
+      "id": "1",
+      "title": "Romance",
+      "movies": [
+        {
+          "id": "1",
+          "title": "The Notebook",
+          "director": "Nick Cassavetes",
+          "year": "2004",
+          "image": "/images/notebook.webp"
+        },
+        {
+          "id": "2",
+          "title": "Through My Window",
+          "director": "Marçal Forés",
+          "year": "2022",
+          "image": "/images/window.jpg"
+        },
+        {
+          "id": "3",
+          "title": "Five Feet Apart",
+          "director": "Justin Baldoni",
+          "year": "2019",
+          "image": "/images/five.jpg"
+        }
+      ]
+    },
+
+    {
+      "id": "2",
+      "title": "Action",
+      "movies": [
+        {
+          "id": "1",
+          "title": "Fast and Furious",
+          "director": "Rob Cohen",
+          "year": "2001",
+          "image": "/images/fast.jpg"
+        },
+        {
+          "id": "2",
+          "title": "Fight Club",
+          "director": "David Fincher",
+          "year": "1999",
+          "image": "/images/Fight-club-poster.webp"
+        },
+        {
+          "id": "3",
+          "title": "Warrior",
+          "director": "Gavin O'Connor",
+          "year": "2011",
+          "image": "/images/warrior.png"
+        },
+        {
+          "id": "4",
+          "title": "Creed",
+          "director": "Ryan Coogler",
+          "year": "2015",
+          "image": "/images/creed.jpg"
+        }
+      ]
+    },
+
+    {
+      "id": "3",
+      "title": "Serials",
+      "movies": [
+        {
+          "id": "1",
+          "title": "The Vampire Diaries",
+          "director": "Julie Plec",
+          "year": "2009",
+          "image": "/images/tvd.jpg"
+        },
+        {
+          "id": "2",
+          "title": "Behind Her Eyes",
+          "director": "Erik Richter Strand",
+          "year": "2021",
+          "image": "/images/eyes.jpg"
+        },
+        {
+          "id": "3",
+          "title": "Stranger Things",
+          "director": "Duffer Brothers",
+          "year": "2016",
+          "image": "/images/stranges.webp"
+        },
+        {
+          "id": "4",
+          "title": "Outer Banks",
+          "director": "Jonas Pate",
+          "year": "2020",
+          "image": "/images/outer.jpg"
+        }
+      ]
+    },
+
+    {
+      "id": "4",
+      "title": "Documentary",
+      "movies": [
+        {
+          "id": "1",
+          "title": "P Diddy Documentary",
+          "director": "Various",
+          "year": "2022",
+          "image": "/images/diddy.jpg"
+        },
+        {
+          "id": "2",
+          "title": "Michael Jackson Documentary",
+          "director": "Various",
+          "year": "2019",
+          "image": "/images/michael.jpeg"
+        },
+        {
+          "id": "3",
+          "title": "Jeffrey Dahmer Documentary",
+          "director": "Various",
+          "year": "2022",
+          "image": "/images/Dahmer_netflix_series.jpg"
+        },
+        {
+          "id": "4",
+          "title": "Jeffrey Epstein Documentary",
+          "director": "Various",
+          "year": "2020",
+          "image": "/images/epstein.webp"
+        }
+      ]
+    }
+
+  ]
+}

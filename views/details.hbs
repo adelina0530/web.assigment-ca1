@@ -1,0 +1,33 @@
+{{> menu id="details"}}
+
+<section class="ui center aligned segment">
+
+<h2>{{title}}</h2>
+
+<div class="ui four cards">
+
+{{#each category.movies}}
+
+<div class="card">
+
+<div class="image">
+<img src="{{image}}">
+</div>
+
+<div class="content">
+<div class="header">{{title}}</div>
+
+<div class="description">
+Director: {{director}} <br>
+Year: {{year}}
+</div>
+
+</div>
+
+</div>
+
+{{/each}}
+
+</div>
+
+</section>
