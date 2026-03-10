@@ -6,44 +6,23 @@
 <h3>Click on category to see Collection Details </h3>
 
 <div class="ui four cards">
+    {{#each movies}}
 
-<a class="card" href="/details/1">
+<a class="card" href="/details/{{id}}">
 <div class="image">
-<img src="/images/romance.webp">
+<img src="{{image}}">
 </div>
 
 <div class="content">
-<div class="header">Romance</div>
+<div class="header">{{title}}</div>
 </div>
 </a>
 
-<a class="card" href="/details/2">
-<div class="image">
-<img src="/images/action.jpg">
-</div>
-<div class="content">
-<div class="header">Action</div>
-</div>
-</a>
 
-<a class="card" href="/details/3">
-<div class="image">
-<img src="/images/serials.jpg">
-</div>
-<div class="content">
-<div class="header">Serials</div>
-</div>
-</a>
 
-<a class="card" href="/details/4">
-<div class="image">
-<img src="/images/documentary.jpg">
-</div>
-<div class="content">
-<div class="header">Documentary</div>
-</div>
-</a>
 
+
+{{/each}}
 </div>
 
 </section>

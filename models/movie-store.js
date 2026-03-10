@@ -1,18 +1,23 @@
 import fs from "fs";
 
-const rawData = fs.readFileSync("./models/movie-store.json");
-const movieCollection = JSON.parse(rawData);
+'use strict';
+
+import logger from '../utils/logger.js';
+import JsonStore from './json-store.js';
+
 
 const movieStore = {
 
+  store: new JsonStore('./models/movie-store.json', { categoryCollection :[]}),
+  collection: 'categoryCollection',
+  array: 'movies',
   getCategory(id) {
-    return movieCollection.categoryCollection.find(
-      category => category.id === id
-    );
-  },
+    return this.store.findOneBy(this.collection, (movie => movie.id === id));
+},
+
 
   getAllCategories() {
-    return movieCollection.categoryCollection;
+    return this.store.findAll(this.collection);
   },
 
 };

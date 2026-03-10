@@ -9,12 +9,13 @@ const details = {
 
     logger.info("Category details loading");
 
-    const category = movieStore.getCategory(request.params.id);
+    const categoryId = request.params.id;
+    
 
     const viewData = {
-      title: category.title,
-      category: category
-    };
+      title: "Movies",
+      category: movieStore.getCategory(categoryId)
+    }
 
     response.render("details", viewData);
   }
