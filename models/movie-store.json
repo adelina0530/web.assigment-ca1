@@ -3,7 +3,7 @@
 
     {
       "id": "1",
-      "title": "Romance",
+      "title": "Details of Romance Movies",
       "movies": [
         {
           "id": "1",
@@ -31,7 +31,7 @@
 
     {
       "id": "2",
-      "title": "Action",
+      "title": "Details of Action Movies",
       "movies": [
         {
           "id": "1",
@@ -66,7 +66,7 @@
 
     {
       "id": "3",
-      "title": "Serials",
+      "title": "Details of Serials Movies",
       "movies": [
         {
           "id": "1",
@@ -101,7 +101,7 @@
 
     {
       "id": "4",
-      "title": "Documentary",
+      "title": "Details of Documentary Movies ",
       "movies": [
         {
           "id": "1",
