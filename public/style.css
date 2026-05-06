@@ -10,7 +10,7 @@ html {
 body {
   font-family: "Benton Sans", "Helvetica Neue", helvetica, arial, sans-serif;
   margin: 2em;
-  background-image: url("/images/cover.jpg");
+  background-image: url("/cover.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
